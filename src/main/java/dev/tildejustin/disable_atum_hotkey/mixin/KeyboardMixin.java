@@ -14,7 +14,7 @@ public abstract class KeyboardMixin {
 
     @SuppressWarnings({"MixinAnnotationTarget", "InvalidMemberReference"})
     @TargetHandler(mixin = "me.voidxwalker.autoreset.mixin.hotkey.KeyboardMixin", name = "atum_onKey")
-    @Inject(method = "@MixinSquared:Handler", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "@MixinSquared:Handler", at = @At("HEAD"), cancellable = true, require = 0)
     private void disableHotkey(CallbackInfo ci) {
         if (shouldCancel) {
             ci.cancel();
