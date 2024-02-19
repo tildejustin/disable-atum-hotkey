@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "disable-atum-hotkey",
   "version": "${version}",
   "name": "",
-  "description": "",
+  "description": "Conditionally disables the atum hotkey",
   "authors": [
     "tildejustin"
   ],
   "contact": {
-    "homepage": "https://modrinth.com/mod/modid",
-    "sources": "https://github.com/tildejustin/modid",
-    "issues": "https://github.com/tildejustin/modid/issues"
+    "homepage": "https://github.com/tildejustin/disable-atum-hotkey/issues",
+    "sources": "https://github.com/tildejustin/disable-atum-hotkey",
+    "issues": "https://github.com/tildejustin/disable-atum-hotkey/issues"
   },
   "license": "MIT",
   "environment": "*",
   "mixins": [
-    "modid.mixins.json"
+    "disable-atum-hotkey.mixins.json"
   ],
   "depends": {
     "minecraft": "*",
